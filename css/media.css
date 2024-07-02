@@ -1,0 +1,309 @@
+ /* Extra small devices  */
+@media (max-width: 575.98px) { 
+    .navbar-toggler i{
+        color: #ffffff;
+        font-size: 20px;
+    }
+    .navbar-toggler i{
+        color: #ffffff;
+    }
+    .navbar-light .navbar-toggler {
+        border: none;
+    }
+    #banner {
+        padding: 150px 0 175px 0;
+    }
+    #banner::before{
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(to right,rgba(194,177,188,0),rgba(194,177,188,1));
+      }
+    .banner_text h1 {
+        font-size: 30px;
+    }
+    .banner_text p {
+        font-size: 17px;
+    }
+    .info_img{
+        margin: 10px 50px;
+    }
+    .about_text h2::before {
+        width: 100px;
+    }
+    #about {
+        padding: 100px 0 100px 0;
+    }
+    .about_text h2 {
+        font-size: 30px;
+    }
+    .about_text p {
+        font-size: 16px;
+    }
+    .about_overly {
+        height: 90%;
+        width: 90%;
+        top: -60px;
+        left: -20px;
+    }
+    .class_text h6 {
+        font-size: 16px;
+    }
+    .class_text h2 {
+        padding-top: 10px;
+        font-size: 25px;
+    }
+    .class_overly{
+        overflow: scroll;
+    }
+    .class_overly p {
+        font-size: 16px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .class_overly h2 {
+        font-size: 25px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .event_text h2 {
+        font-size: 35px;
+    }
+    .event_item_text h2 {
+        margin-top: 20px;
+    }
+    .event_item_text h6 {
+        font-size: 15px;
+    }
+    .event_item_text p {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .event_item_text a {
+        font-size: 15px;
+        padding: 6px 10px;
+    }
+    .gallery_text p {
+        font-size: 16px;
+    }
+    .gallery_text h2 {
+        font-size: 25px;
+    }
+    .gallery_text_btn a {
+        padding: 5px 14px;
+    }
+    .contact_text h2::before {
+        width: 110px;
+    }
+    .contact_text h2 {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .contact_label {
+        font-size: 16px;
+    }
+    .contact_button {
+        font-size: 17px;
+    }
+    .contact_info h2 {
+        font-size: 25px;
+    }
+    .contact_info_text h6 {
+        font-size: 16px;
+    }
+    .contact_info_text h4 {
+        font-size: 17px;
+    }
+    .contact_info_text p {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+ }
+
+
+ /* Small devices  */
+@media (min-width: 576px) and (max-width: 767.98px) 
+{
+    .navbar-toggler i{
+        color: #ffffff;
+        font-size: 30px;
+    }
+    .navbar-toggler i{
+        color: #ffffff;
+    }
+    .navbar-light .navbar-toggler {
+        border: none;
+    }
+    .about_text p {
+        font-size: 22px;
+    }
+    .class_overly{
+        overflow: scroll;
+    }
+    .class_overly h2 {
+        font-size: 27px;
+        margin-top: 10px;
+        margin-left: 20px;
+        padding: 0 0px;
+    }
+    .class_overly p {
+        font-size: 16px;
+        margin-top: -5px;
+        margin-left: 20px;
+        padding: 0px 0px;
+    }
+    .class_text h6 {
+        font-size: 20px;
+    }
+    .event_item_text h2 {
+        font-size: 26px;
+    }
+    .event_item_text h6 {
+        font-size: 20px;
+    }
+    .event_item_text p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .contact_info h2 {
+        font-size: 35px;
+        padding-top: 40px;
+    }
+    .contact_info_text h6 {
+        font-size: 20px;
+    }
+    .contact_info_text h4 {
+        font-size: 22px;
+    }
+    .contact_info_text p {
+        font-size: 19px;
+    }
+    .footer_aboutus h4 {
+        font-size: 28px;
+    }
+    .footer_aboutus p {
+        font-size: 20px;
+    }
+    .footer_quicklinks h4 {
+        font-size: 28px;
+    }
+    .footer_quicklinks_text a {
+        font-size: 20px;
+    }
+    .footer_icon_text h4{
+        font-size: 28px;
+    }
+    .footer_icon i {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+ }
+
+
+
+ /* Medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .navbar-toggler i{
+        color: #ffffff;
+        font-size: 30px;
+    }
+    .navbar-toggler i{
+        color: #ffffff;
+    }
+    .navbar-light .navbar-toggler {
+        border: none;
+    }
+    .banner_text p {
+        font-size: 27px;
+    }
+    .about_text p {
+        font-size: 27px;
+    }
+    .info_text h2 {
+        font-size: 30px;
+    }
+    .info_text p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        color: #353535;
+    }
+    .class_overly h2 {
+        font-size: 32px;
+        margin-top: 30px;
+        margin-left: 20px;
+        padding: 0 0px;
+    }
+    .class_overly p {
+        font-size: 20px;
+        margin-top: -5px;
+        margin-left: 20px;
+        padding: 0px 0px;
+    }
+    .class_text h6 {
+        font-size: 24px;
+    }
+    .class_text h2 {
+        font-size: 40px;
+    }
+    .event_item_text h2 {
+        font-size: 35px;
+    }
+    .event_item_text h6 {
+        font-size: 24px;
+    }
+    .event_item_text p {
+        font-size: 23px;
+        margin-bottom: 50px;
+    }
+    .gallery_text p {
+        font-size: 24px;
+    }
+    .gallery_text h2 {
+        font-size: 40px;
+    }
+    .gallery_text_btn a {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .contact_text h2 {
+        font-size: 40px;
+    }
+    .contact_label {
+        font-size: 24px;
+    }
+    .contact_info h2 {
+        font-size: 40px;
+        padding-top: 40px;
+    }
+    .contact_info_text h6 {
+        font-size: 24px;
+    }
+    .contact_info_text h4 {
+        font-size: 25px;
+    }
+    .contact_info_text p {
+        font-size: 23px;
+    }
+    .footer_aboutus h4 {
+        font-size: 37px;
+    }
+    .footer_aboutus p {
+        font-size: 24px;
+    }
+    .footer_quicklinks h4 {
+        font-size: 37px;
+    }
+    .footer_quicklinks_text a {
+        font-size: 24px;
+    }
+    .footer_icon_text h4{
+        font-size: 37px;
+    }
+    .footer_icon i {
+        padding: 15px;
+        font-size: 24px;
+    }
+ }
